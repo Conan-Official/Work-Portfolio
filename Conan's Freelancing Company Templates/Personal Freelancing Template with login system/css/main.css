@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Lustria', serif;*/
+    font-family: 'Lustria', serif;
+}
+
+body {
+    background: rgba(15, 15, 15, 0.89);
+}
+
+.top_nav ul {
+    background: rgba(70, 70, 70, 0.47);
+    box-shadow: 0px 1px 30px 1px rgba(230, 230, 230, 0.8);
+    border-bottom: 2px solid rgba(209, 209, 209, .9);
+    height: 47px;
+    line-height: 47.5px;
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    border-bottom: 2px solid rgba(177, 174, 174, 0.95);
+}
+
+.top_nav ul li {
+    display:inline-block;
+    text-transform: uppercase;
+    font-size: 15.5px;
+    font-weight: 200px;
+    width: 7.5%;
+    color: rgba(209, 209, 209, .5);
+    transition: all 700ms ease;
+}
+
+.top_nav ul li:hover {
+    transform: translateY(1px);
+    color: rgba(209, 209, 209, .95);
+    cursor: default;
+}
+
+.top_nav .logo {
+    position: absolute;
+    z-index: 2;
+    left: .3%;
+    opacity: .7;
+    transition: all 700ms ease;
+}
+
+.top_nav::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 45px;
+    margin-bottom: 0px;
+}
+
+.top_nav .login {
+    position: absolute;
+    left: calc(100% - 12%);
+    top: 8%;
+    width: 170px;
+    opacity: .4;
+    transition: all 700ms ease;
+    outline:none;
+}
+
+.top_nav .login:hover {
+    opacity: .6;
+    transform: translateX(15px);
+
+}
+
+.main_showcase {
+    height: 960px;
+    
+
+}
+
+
+.block {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 45px;
+    background: rgba(9, 151, 194, 0.08);
+    box-shadow: 0px 0px 30px 1px rgba(230, 230, 230, 0.5);
+   
+}
+
+.parallax {
+        height: 550px; 
+        background: url(../img/template4.png) -90px;
+        background-attachment: fixed;
+        box-shadow: 0px 0px 30px 1px rgba(230, 230, 230, 0.4);
+    
+}
+
+.main_showcase .container .logo {
+    position: absolute;
+    width: calc(100% - 89.5%);
+    height: 180px;
+    z-index: 2;
+    top: 6.0%;
+    left: calc(100% - 55.9%);
+}
+
+.main_showcase .container .banner {
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    opacity: .3;
+    z-index: -1;
+}
+
+.main_showcase .container h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.main_showcase .video_bg {
+    position: absolute;
+    width: calc(100% - 51%);
+    height: 600px;
+    display: block; 
+    background: rgba(71, 71, 71, 0.15);
+    border: 1px solid rgba(255,255,255,.4);
+    margin-top: -50%; /* 11%*/
+    left: calc(100% - 76%);
+    box-shadow: 0px 0px 50px 2px rgba(255,255,255,.7);
+    transition: all 700ms ease;
+}
+
+.main_showcase .video_bg:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0px 0px 50px 2px rgba(19, 127, 160, 0.7);
+}
+
+
+.second_showcase {
+    height: 900px;
+}
+
+.second_showcase .banner {
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    opacity: .3;
+    z-index: -1;
+}
+
+.main_showcase .video_bg .banner1 {
+    height: 99.98%;
+}
+
+.main_showcase .video_bg .banner2 {
+    position: absolute;
+    left: 98%;
+    height: 99.98%;
+}
+
+.main_showcase .video_bg button {
+    position: absolute;
+    top: 46%;
+    left: 38.525%;
+    padding: 12px;
+    width: 25%;
+    font-size: 15px;
+    color:rgba(109, 108, 108, 0.6);
+    color: rgba(255,255,255,.7);
+    background: rgba(109, 108, 108, 0.5);
+    border: 3px solid rgba(110,110,110,.5);
+    box-shadow: 0px 0px 50px 2px rgba(240, 241, 241, 0.1);
+    transition: all 800ms ease;
+    text-transform: uppercase;
+    border-radius: 5px;
+    outline:none;
+
+    
+}
+
+.main_showcase .video_bg h2 {
+    position: absolute;
+   left: 2.2%;
+   padding: 22px;
+   top: .4%;
+   background: rgba(70, 70, 70, 0.57);
+    border: 3px solid rgba(110,110,110,.2);
+    box-shadow: 0px 0px 50px 2px rgba(240, 241, 241, 0.1);
+    color: rgba(255,255,255,.7);
+    z-index:1;
+    width: 90.5%;
+}
+
+.main_showcase .video_bg button:hover {
+    transform: translateY(-20px);
+    padding: 12px; 
+    box-shadow: 0px 0px 40px 2px rgba(210, 213, 214, 0.5);
+}
+
+.main_showcase .video_bg .pic {
+    opacity: .65;
+    position: absolute;
+    left: 2.5%;
+    top: 1.2%;
+    width: 95%;
+    height:97%;
+}
+
+
+.second_showcase h2 {
+    color: rgba(255,255,255,.4);
+    text-align: center;
+    line-height: 160px;
+    text-transform: uppercase;
+}
+
+.second_showcase .boxes {
+    margin-top: 100px;
+    width: 100%;
+    height: 220px;
+    background: rgba(230, 230, 230, 0.10);
+}
+
+.second_showcase .boxes #box1 {
+    position: absolute;
+    width: calc(100% - 80%);
+    height: 200px;
+    margin-top: 10px;
+    margin-left: calc(100% - 83%);
+    background: rgba(44, 44, 44, 0.7);
+    box-shadow: 0px 0px 50px 2px rgba(19, 127, 160, 0.7);
+    transition: all 700ms ease;
+}
+
+.second_showcase .boxes #box1:hover {
+    box-shadow: 0px 0px 20px 2px rgba(209, 209, 209, .7);
+    transform: translateY(-10px);
+}
+
+.second_showcase .boxes #box2:hover {
+    box-shadow: 0px 0px 50px 2px rgba(19, 127, 160, 0.7);
+    transform: translateY(-10px);
+}
+
+.second_showcase .boxes #box3:hover {
+    box-shadow: 0px 0px 20px 2px rgba(209, 209, 209, .7);
+    transform: translateY(-10px);
+}
+
+.second_showcase .boxes #box2 {
+    position: absolute;
+    width: calc(100% - 80%);
+    height: 200px;
+    margin-top: 10px;
+    margin-left: calc(100% - 60.0%);
+    background: rgba(44, 44, 44, 0.7);
+    box-shadow: 0px 0px 20px 2px rgba(209, 209, 209, .7);
+    transition: all 700ms ease;
+}
+
+.second_showcase .boxes #box3 {
+    position: absolute;
+    width: calc(100% - 80%);
+    height: 200px;
+    margin-top: 10px;
+    margin-left: calc(100% - 37%);
+    background: rgba(44, 44, 44, 0.7);
+    box-shadow: 0px 0px 50px 2px rgba(19, 127, 160, 0.7);
+    transition: all 700ms ease;
+}
+
+.second_showcase .boxes #box1 .bannerframe1 {
+    position: absolute;
+}
+
+.second_showcase .boxes #box1 .bannerframe2 {
+    position: absolute;
+    left: 94.5%;
+}
+
+.second_showcase .boxes #box1 .mission {
+    position: absolute;
+    margin-top: 10px;
+    left: 8%;
+}
+
+
+
+.second_showcase .boxes #box2 .bannerframe1 {
+    position: absolute;
+}
+
+.second_showcase .boxes #box2 .bannerframe2 {
+    position: absolute;
+    left: 94.5%;
+}
+
+.second_showcase .boxes #box2 .tutorials {
+    position: absolute;
+    width: 82%;
+    margin-top: 15px;
+    left: 10%;
+}
+
+.second_showcase .boxes #box3 .bannerframe1 {
+    position: absolute;
+}
+
+.second_showcase .boxes #box3 .bannerframe2 {
+    position: absolute;
+    left: 94.5%;
+}
+
+.second_showcase .boxes #box3 .proshop {
+    position: absolute;
+    margin-top: 10px;
+    width: 82%;
+    left: 10%;
+}

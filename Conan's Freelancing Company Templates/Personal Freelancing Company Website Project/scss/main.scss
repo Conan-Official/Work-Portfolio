@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(0,0,0,1);
+}
+
+.top_head {
+    .main_nav {
+        ul {
+            position: fixed;
+            width: 100%;
+            height: 45px;
+            background: rgba(110,110,110,.20);
+            z-index: 2;
+            box-shadow: 2px 0px 20px 2px rgba(255,255,255,.7);
+        }
+    }
+}
+
+.main_showcase {
+    height: 900px;
+    z-index: -1;
+    width: 100%;
+   
+    img {
+        display: block;
+        position: absolute;
+        width: 280px;
+        height: 220px;
+        top:10%;
+        left: 43%;
+        opacity: 1;
+    }
+  
+         .video {
+                position: absolute;
+                top: 46px;
+                left: 9.5%;
+               height: 900px;
+              
+               
+            }
+           
+    }
+  
+  
+
+

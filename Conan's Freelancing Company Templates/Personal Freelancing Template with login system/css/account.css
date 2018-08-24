@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Lustria', serif;*/
+    font-family: 'Lustria', serif;
+}
+
+body {
+    background: rgba(107, 106, 106, 0.70);
+}
+
+.top_nav ul {
+    background: rgba(31, 30, 30, 0.74);
+    box-shadow: 0px 1px 30px 1px rgba(230, 230, 230, 0.8);
+    border-bottom: 2px solid rgba(209, 209, 209, .9);
+    height: 47px;
+    line-height: 47.5px;
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    border-bottom: 2px solid rgba(177, 174, 174, 0.95);
+    z-index: 2;
+}
+
+.top_nav ul li {
+    display:inline-block;
+    text-transform: uppercase;
+    font-size: 15.5px;
+    font-weight: 200px;
+    width: 7.5%;
+    color: rgba(209, 209, 209, .5);
+    transition: all 700ms ease;
+}
+
+.top_nav ul li:hover {
+    transform: translateY(1px);
+    color: rgba(209, 209, 209, .95);
+    cursor: default;
+}
+
+.top_nav .logo {
+    position: absolute;
+    z-index: 2;
+    left: .3%;
+    opacity: .7;
+    transition: all 700ms ease;
+}
+
+.top_nav::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 45px;
+    margin-bottom: 0px;
+}
+
+.top_nav .login {
+    position: absolute;
+    left: calc(100% - 12%);
+    top: 8%;
+    width: 170px;
+    opacity: .4;
+    transition: all 700ms ease;
+    outline:none;
+}
+
+.top_nav .login:hover {
+    opacity: .6;
+}
+
+
+.main_showcase {
+    height: 900px;
+}
+
+.main_showcase .container .banner {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    opacity: .85;
+    z-index: -1;
+}
+
+.main_showcase .container .banner1 {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    opacity: .80;
+    z-index: -1;
+    top: 84%;
+}
+
+.main_showcase .container .circle {
+    position: absolute;
+    width: calc(100% - 78%);
+    left: calc(100% - 61.85%);
+    opacity: .95;
+    top: 4%;
+    z-index:1;
+}
+
+.main_showcase .create {
+    position: absolute;
+    width: 500px;
+    height: 550px;
+    margin-top: 170px;
+    background: rgba(107, 106, 106, 0.87);
+    border-radius: 10px;
+    border: 2px solid rgba(0,0,0,.2);
+    box-shadow: 0px 0px 50px 2px rgba(255,255,255,.7);
+    left: 35.9%;
+}
+
+.main_showcase .create .username {
+    margin-top: 145px;
+}
+
+.main_showcase .create .first {
+    margin-top: 100px;
+}
+
+.main_showcase .create p {
+    text-align: center;
+}
+
+.main_showcase .create input {
+    text-align: center;
+    margin-top: 12px;
+    border-radius: 8px;
+    background:rgba(0,0,0,.6);
+    border:2px solid rgba(136, 135, 135, 0.8);
+    outline: none;
+    padding: 8.5px;
+    color: rgba(214, 212, 212, 0.8);
+    transition: all 700ms ease;
+    font-size: 13.3px;
+    width: 30%;
+}
+
+.main_showcase .create input::placeholder {
+    text-transform: uppercase;
+    color: rgba(214, 212, 212, 0.5);
+    text-align: center;
+    font-family: 'Lustria', serif;
+}
+
+.main_showcase .create input:hover {
+    box-shadow: 0px 1px 30px 2px rgba(230, 230, 230, 0.7);
+    transform: translateY(-2px);
+    width: 35%;
+    color: rgba(214, 212, 212, 0.9);
+    font-size: 13.45px;
+    padding: 8.9px;
+
+}
+
+.main_showcase .create button {
+    margin-top: 20px;
+    width: 210px;
+    padding: 10px;
+    background: rgba(0,0,0,.2);
+    border:2px solid rgba(190, 193, 196, 0.2);
+    color:rgba(214, 212, 212, 0.8);
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: all 900ms ease;
+    outline: none;
+    border: 2px solid rgba(0,0,0,.2);
+}
+
+.main_showcase .create button:hover {
+    width: 155px;
+    transform: translateX(1px) translateY(-.5px);
+    box-shadow: 0px 1px 10px 2px rgba(230, 230, 230, 0.4);
+    font-size: 14px;
+}
+
+.main_showcase .create .registered {
+    margin-top: 60px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main_showcase .create .createA {
+    margin-top: 10px;
+    color: rgba(255,255,255,.4);
+    text-decoration: none;
+    list-style: none;
+}
+
+.main_showcase .create .banner123 {
+    position: absolute;
+    opacity: .7;
+}
+
+.main_showcase .create .banner124 {
+    position: absolute;
+    left: 96%;
+    opacity: .7;
+}
+
+.main_showcase .create .cbox {
+    display: block;
+    position: absolute;
+    width: 92.35%;
+    left: 3.52%;
+    margin-top: 60px;
+    height: 100px;
+    background: rgba(0,0,0,.35);
+}
+

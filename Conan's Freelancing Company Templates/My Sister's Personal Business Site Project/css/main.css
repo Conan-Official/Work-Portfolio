@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	background-color: rgba(255,250,240, 1);
+}
+
+.container {
+	padding: 0;
+	overflow: hidden;
+}
+
+.big_wrapper {
+	height: 100%;
+	width: 100%;
+	background-color: beige;
+}
+
+.content_container {
+	margin: 0 auto;
+	width: 73%;
+	background: rgba(255,250,240,.9);
+	border: 2px solid rgba(110,110,110,.2);
+	box-shadow: 0px 6px 20px 2px rgba(0,0,0,.5);
+	height: 1500px;
+	margin-top: 2px;
+}
+
+.content_container .new_Releases {
+	height: 700px;
+	
+	
+}
+
+.content_container .new_Releases .new_releasesBox{
+	font-family: 'Cinzel', serif;
+	font-size: 48.9px;
+	text-align: center;
+	width: 890px;
+	height: 150px;
+	margin: 50px auto;
+	line-height: 20px;
+	background: rgba(205,201,201,.6);
+	border-bottom: 3px solid rgba(110,110,110,.1);
+	outline: 1px solid grey;
+	box-shadow: 6px 1px 50px 6px rgba(110,110,110,.3) inset;
+	border-radius: 4px;
+}
+
+.content_container .new_Releases .new_releasesBox p{
+	line-height: 150px;
+	color: rgba(255,255,255,.95);
+	font-weight: 600px;
+	text-shadow: -2px 1px 12px rgba(0,0,0,3);
+}
+
+.content_container .Wardrobe_section {
+	height: 700px;
+}
+
+
+.content_container .Wardrobe_section .new_releasesBox {
+	font-family: 'Cinzel', serif;
+	font-size: 48.9px;
+	text-align: center;
+	width: 870px;
+	height: 150px;
+	margin: 30px auto;
+	line-height: 20px;
+	background: rgba(205,201,201,.6);
+	border-bottom: 3px solid rgba(110,110,110,.1);
+	outline: 1px solid grey;
+	box-shadow: 6px 1px 50px 6px rgba(110,110,110,.3) inset;
+	border-radius: 4px;
+}
+
+.content_container .Wardrobe_section .new_releasesBox p{
+	line-height: 150px;
+	color: rgba(255,255,255,.95);
+	font-weight: 600px;
+	text-shadow: -2px 1px 12px rgba(0,0,0,3);
+}
+
+
+.top_navigation {
+	position: fixed; 
+	width: 100%;
+	height: 52px;
+	background: rgba(110,110,110,.4);
+	border-bottom: 2px solid lightgrey;
+	box-shadow: 2px 0px 10px 10px rgba(0,0,0,.3);
+	outline: 3px solid rgba(110,110,110,.35);
+	z-index: 2;
+	
+}
+
+
+.top_navigation .position {
+	/*font-family: 'Exo', sans-serif;*/
+	font-family: 'Cinzel', serif;
+	font-size: 15.5px;
+	text-align: center;
+	line-height: 57px;
+	color: rgba(255,255,255,.94);
+	font-weight: 600px;
+	text-shadow: 2px 1px 2.5px rgba(0,0,0,1);
+	transition: all 1000ms ease;
+	
+}
+
+.top_navigation .position li {
+	display: inline-block;
+	margin: 0 3%;
+}
+
+.top_navigation .position li:hover {
+	cursor: pointer;
+	color: rgba(255,255,255,1);
+}
+
+.top_navigation #top_button {
+	background:rgba(136,136,136,.9);
+	color: rgba(255,255,255,.9);
+	font-family: 'Cinzel', serif;
+	font-weight: 600px;
+	font-size: 15.9px;
+	text-align: center;
+	line-height: 56px;
+	position: absolute;
+	border: 2px solid rgba(110,110,110,.4);
+	width: 9.5%;
+	height: 50px;
+	z-index: 3;
+}
+
+.bg_sideBlock {
+	position: absolute;
+	width: 50px;
+	height: 801px;
+	background: rgba(255,250,240,.5);
+	border: 2.5px solid rgba(110,131,136,1);
+	box-shadow: 0px 2px 10px 2px rgba(0,0,0,.5);
+	z-index:1;
+}
+
+
+.main_showcase .container {
+	height: 805px;
+	background: url(../img/fashion.jpg) no-repeat 0 58px;
+	background-size: cover;	
+	border: 2px solid grey;
+	font-family: 'Great Vibes', cursive;
+	opacity: 1;
+
+}
+
+.main_showcase .container #main_button{
+	position: absolute;
+	background:rgba(136,136,136,.7);
+	color: rgba(255,255,255,.95);
+	font-weight: 600px;
+	text-shadow: -2px 1px 12px rgba(0,0,0,3);
+	font-family: 'Cinzel', serif;
+	font-size: 15.9px;
+	text-align: center;
+	line-height: 54px;
+	border: 2px solid rgba(110,110,110,.4);
+	width: 12.5%;
+	height: 50px;
+	left: 58%;
+	top: 36%;
+	transition: all 700ms ease;
+
+}
+
+.main_showcase .container #main_button:hover {
+	background:rgba(110,131,136,.9);
+	color: rgba(255,255,255,1);
+	cursor: pointer;
+}
+.main_showcase .box {
+	position: absolute;
+	margin: 37.1% 19.1%;;
+	height: 220px;
+	width: 61%;
+	background: rgba(255,250,240,.9);
+	border: 3.5px solid rgba(110,131,136,1);
+	outline: 2px solid white;
+	box-shadow: 0px 2px 20px 2px rgba(0,0,0,.5);
+	
+}
+
+.main_showcase .box p { 
+	text-align: center;
+	font-size: 180px;
+	line-height:250px;
+	opacity:.3;
+}
+.main_showcase .container #top {
+	position: absolute;
+	font-size: 44px;
+	left: 59%;
+	top: 19%;
+	
+}
+
+.main_showcase .container #bottom {
+	position: absolute;
+	font-size: 48px;
+	left: 55.5%;
+	top: 25.9%;
+	
+}
+
+
+
+
+.bg_bottomBlock {
+	height: 180px;
+	background: rgba(205,201,201,.6);
+	border-top: 3px solid rgba(193,205,193,1);
+	box-shadow: 0px -10px 10px -5px rgba(110,110,110,.5);
+	z-index: 1;
+ 	border-bottom: 3px solid rgba(110,110,110,.1);
+	box-shadow: 6px 1px 10px 2px rgba(110,110,110,.3) inset;
+}
+
+
+
+

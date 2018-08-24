@@ -1,0 +1,452 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 
+	@author Conan Mafnas
+
+*/
+
+* {
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+
+body {
+	background: black;
+	color: #F2F2F2;
+	font-family: 'Patua One', cursive;
+}
+
+header, nav, section, hgroup, footer, article, aside {
+	display: block;
+}
+.container {
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+	
+}
+.top_nav {
+	position: fixed;
+	width: 100%;
+	height: 55px;
+	background-color:rgba(0, 0,0,0.7);
+	box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);
+	z-index: 20;
+	top:0;
+	
+	
+}
+
+.top_nav #btn-span {
+	position: absolute;
+	width: 50px;
+	height: 30px;
+	left: 5px; /* change to 205*/
+	top: 10px;
+	transition: all 400ms ease;
+}
+
+.top_nav #btn-span span {
+	display: block;
+	height: 2px;
+	margin: 6px 10px;
+	padding: .7px;
+	background: white;
+	
+}
+
+.top_nav #menu {
+	display: block;
+	margin-top: 17px;
+	margin-left: 60px; /* change to 260*/
+	font-size: 16px;
+	color: white;
+	transition: all 400ms ease;
+	
+}
+
+.top_nav #menu:hover {
+	cursor: default;
+}
+
+.top_header {
+	height: 280px;
+	width: 100%;
+	background: url(../img/clouds.jpg) no-repeat 0 -600px;
+	background-attachment: fixed;
+}
+
+.top_header .container img {
+	width: 200px;
+	height: 200px;
+	margin-top: 70px;
+}
+
+.main_nav {
+	display: -webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-shadow: rgba(110,110,110, .6) 1px 4px 10px inset;
+	background: #222021;
+	border-bottom: 5px solid #1CD6E5;
+}
+
+
+.line_block {
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-shadow: rgba(110,110,110, .6) 1px 4px 20px inset;
+	border-top: 4px solid #1CD6E5;
+	border-bottom: 4px solid #1CD6E5;
+	background: #222021;
+	padding: 18px;
+	
+}
+
+#wrapper {
+	margin-left: 0px; /* change to 200*/
+	transition: all 400ms ease;
+}
+
+.inline li {
+	text-align: center;
+	display: inline-block;
+	margin: 0 11px;
+	padding: 11px 10px;
+	width: 95px;
+	font-size: 17px;
+	font-weight: 400;
+	cursor: default;
+	border-left: 2px solid rgba(23,237,248,1.00);
+	border-right: 2px solid rgba(23,237,248,1.00);
+	opacity: .8;
+	transition: all 800ms ease;
+}
+
+.inline li:hover {
+	opacity:1;
+	font-weight: 700;
+	border-left: 3px solid rgba(23,237,248,1.00);
+	border-right: 3px solid rgba(23,237,248,1.00);
+}
+
+#side_nav {
+	position: fixed;
+	width: 0px; /* change to 200*/
+	height: 100%;
+	background-color:rgba(0, 0,0,0.7);
+	box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);
+	z-index: 20;
+	/*border-left: 2px solid #1CD6E5;*/
+	border-right: 3px solid #1CD6E5;
+	transition: all 400ms ease;
+	z-index: 20;
+}
+
+#side_nav #slogo {
+	width: 120px;
+	height: 120px;
+	margin: 70px -200px;
+	transition: all 400ms ease;
+}
+
+#side_nav_ul {
+	padding: 0px 10px;
+	margin-left: -200px;
+	transition: all 400ms ease;
+	
+}
+
+#side_nav_ul li {
+	display: block;
+	text-align: center;
+	margin: 16px auto;
+	font-size: 17px;
+	font-weight: 400;
+	padding: 10px;
+	background:rgba(43,43,43,0.5);
+	box-shadow: rgba(110,110,110, .5) 1px 4px 10px inset;
+	border-bottom: 2px solid #1CD6E5;
+	opacity: .8;
+	transition: all 400ms ease;
+	
+	
+	
+}
+
+#side_nav_ul li:hover {
+	box-shadow: rgba(110,110,110, .7) 1px 4px 10px inset;
+	border-bottom: 4px solid #1CD6E5;
+	opacity: 1;
+	
+}
+
+.top_nav #Preview_V {
+	position: absolute;
+	margin-top: 6px;
+	margin-left: 1610px;
+	border: 4px solid rgba(213,209,209,0.61);
+	width: 200px;
+	padding: 8px;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	color: #F5F5F5;
+	background-color:rgba(140,140,140,.2);
+	box-shadow: rgba(110,110,110, .7) 4px 4px 20px inset;
+	outline: 2px solid #1CD6E5;
+	
+}
+
+.top_nav #Preview #logo2{
+	position: absolute;
+	width: 35px;
+	height: 25px;
+	margin-left: 1624px;
+	margin-top: 17px;
+}
+
+.main_showcase .container{
+	height: 720px;
+	background: url(../img/valley3.jpg)no-repeat 0px -350px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+@keyframes InnovateDrop{
+	0%{opacity: 0%;}
+	100%{margin-top: 90px; opacity: 40%;}
+	/*100%{margin-top:10px; opacity: 100%}*/
+}
+
+@keyframes InnovateSlide{
+	0%{opacity: 0%; font-size: 0;}
+	90%{margin-left: 1400px; opacity: 0%; display: none; font-size: 0px; }
+	100%{margin-left:10px; opacity: 100%; display:block; text-shadow: 2px 4px #111; font-size: 35px}
+}
+
+.main_showcase .container #INNOVATE {
+	text-align: center;
+	font-size: 35px;
+	font-weight: 900;
+	margin-top:-600px;
+	text-shadow: 2px 4px #111;
+	z-index:2;
+	animation: InnovateDrop .5s ease forwards;
+	font-family: 'Catamaran', sans-serif;
+	display:block;
+}
+
+
+.main_showcase .container #SLOGAN {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 900;
+	margin-left:-1600px;
+	z-index:2;
+	animation: InnovateSlide .9s ease forwards;
+	font-family: 'Catamaran', sans-serif;
+	display: block
+}
+
+.main_showcase .container #button {
+	margin: 60px;
+	color: #E5E5E5;
+	text-align: center;
+	background: #222021;
+	padding: 15px;
+	border: 3px solid grey;
+	outline: 3px solid black;
+	width: 180px;
+	opacity: .8;
+	font: bold 14px Tahoma;
+	transition: transform 2s, opacity 1s, border 1s, outline 1s, background 1s, width 1s;
+
+	
+}
+
+.main_showcase .container #button:hover {
+
+	transform: opacity 1;
+	border: 3px solid grey;
+	outline: 5px solid #1CD6E5;
+	background: #222021;
+	width: 200px;
+}
+
+#clouds {
+	height: 500px;
+	background:url(../img/clouds.jpg) no-repeat center -10px;
+	/*background: url(../img/Abstract.png) no-repeat center 200px;*/
+	background-size: cover;
+	background-attachment: fixed;	
+}
+
+#clouds_feedback {
+	font-size: 20px;
+}
+
+.dialog_box {
+	display: block;
+	position: fixed;
+	background-color:rgba(0, 0,0,.85);
+	box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);
+	z-index: 30;
+	margin-top: -120px;
+	left: 995px;
+	width: 120px;
+	height: 120px;
+	
+	/*display: block;
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0, 0,0,.85);
+	box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);
+	z-index: 30;
+	display: none;*/
+}
+
+ .box {
+	display: block;
+	position: fixed;
+	width: 1px;
+	height: .6px;
+	left: 28%;
+	top: -100%;
+	background-color:rgba(110,110,110,.7);
+	box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);
+	border: 3px solid #1CD6E5;
+	z-index:31;
+}
+
+.box #preview_Head{
+	text-align: center;
+	box-shadow: rgba(110,110,110, .7) 1px 4px 10px inset;
+	border-bottom: 4px solid #1CD6E5;
+	background:rgba(43,43,43,1);
+	padding: 0px;
+	opacity: 0;
+	font-size: 0px;
+	color: rgba(242,242,242,0);
+}
+
+.box #buttonPosition {
+	display: block;
+	position: absolute;
+	margin: 0px auto;
+	vertical-align: middle;
+}
+
+.box #buttonPosition #Siteb {
+	position: absolute;
+	color: #E5E5E5;
+	text-align: center;
+	background: #222021;
+	border: 3px solid grey;
+	outline: 3px solid black;
+	width: 180px;
+	opacity: 0;
+	font: bold 14px Tahoma;
+	padding: 14px;
+	margin: 210px 250px;
+	transition: transform 2s, opacity 1s, border 1s, outline 1s, background 1s, width 1s;
+	
+
+}
+
+.box #buttonPosition #Siteb:hover {
+	transform: opacity 1;
+	border: 3px solid grey;
+	outline: 5px solid #1CD6E5;
+	background: #222021;
+	width: 190px;
+}
+
+.box #buttonPosition #Youtubeb {
+	position: absolute;
+	color: #E5E5E5;
+	text-align: center;
+	background: #222021;
+	border: 3px solid grey;
+	outline: 3px solid black;
+	width: 180px;
+	opacity: 0;
+	font: bold 14px Tahoma;
+	padding: 14px;
+	margin: 210px 465px;
+	transition: transform 2s, opacity 1s, border 1s, outline 1s, background 1s, width 1s;
+	
+}
+
+.box #buttonPosition #Youtubeb:hover {
+	transform: opacity 1;
+	border: 3px solid grey;
+	outline: 5px solid #1CD6E5;
+	background: #222021;
+	width: 190px;
+}
+
+#plogo {
+	position: absolute;
+	left: 250px;
+	width: 400px;
+	height: 400px;
+	top:10px;
+	opacity: 0;
+}
+
+#pageLoader {
+	background-color:rgba(0, 0,0,.9);
+	box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);
+	width: 0%;
+	height: 0%;
+	position: fixed;
+	z-index: 30;
+}
+
+#pageLoader #blue {
+	position: fixed;
+	background: rgba(23,237,248,.2);
+	box-shadow: rgba(110,110,110, .6) 1px 4px 20px inset;
+	width: 0px;
+	height: 351px;
+	
+}
+#pageLoader #silverBrown {
+	position: fixed;
+	background: rgba(34,32,33,.2);
+	box-shadow: rgba(110,110,110, .6) 1px 4px 20px inset;
+	width: 0px;
+	height: 340px;
+	top: 350px;
+	
+}
+
+#pageLoader #greySilver {
+	position: fixed;
+	background:rgba(199,198,198,.2);
+	box-shadow: rgba(110,110,110, .6) 1px 4px 20px inset;
+	width: 0px;
+	height: 431px;
+	top: 690px;
+	
+}
+
+#pageLoader #INSLOGO {
+	position: absolute;
+	left: 750px;
+	top: 200px;
+	display:none;
+	opacity: 0;
+}
+
+#Discord {
+	height: 500px;
+}
+
+
+
+
+
+

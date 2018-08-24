@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: 'Quicksand', sans-serif;
+	color: #F2F2f2;
+}
+
+body {
+	background: rgba(0,0,0,1);
+}
+
+header, nav , section , article, aside, footer {
+	display: block;
+}
+
+.big_wrapper {
+	margin-left: 202px;
+	
+}
+
+.container {
+	padding: 0;
+	overflow: hidden;
+}
+
+.side_nav {
+	position: fixed;
+	height: 100%;
+	width: 200px;
+	background: rgba(0,0,0,.3);
+	border-right: 1px solid rgba(21,214,231,1.00);
+	box-shadow: -2px 0px 14px 1px rgba(253,253,253,.2);
+	z-index: 2;
+}
+
+.side_nav #side_logo {
+	position: absolute;
+	width: 110px;
+	left: 42px;
+	top: 40px;
+}
+
+.side_nav_ul {
+	margin-top: 200px;
+	padding: 0px 10px;
+	margin-left: 0px;
+	transition: all 400ms ease;
+	
+}
+
+.side_nav_ul li {
+	display: block;
+	text-align: center;
+	margin: 16px auto;
+	font-size: 15.5px;
+	font-weight: 200;
+	padding: 9px;
+	background:rgba(43,43,43,0.5);
+	box-shadow: rgba(110,110,110, .5) 1px 4px 10px inset;
+	border-bottom: 2px solid #1CD6E5;
+	opacity: .8;
+	transition: all 400ms ease;
+	
+	
+	
+}
+
+.side_nav_ul li:hover {
+	box-shadow: rgba(110,110,110, .7) 1px 4px 10px inset;
+	border-bottom: 4px solid #1CD6E5;
+	opacity: 1;
+	
+}
+
+.top_nav {
+	position: fixed;
+	height: 48px;
+	width: 90%;
+	background: rgba(0,0,0,.5);
+	box-shadow: 1px 1px 10px 4px rgba(253,253,253,.2);
+	border-bottom: 1px solid rgba(21,214,231,1.00);
+	text-align: center;
+	line-height: 50px;
+}
+
+.top_nav li {
+	display: inline-block;
+	color: rgba(253,253,253,.8);
+	font-weight: 300;
+	margin: 0 40px;
+	font-size: 15.8px;
+	tansition: all 1500ms ease;
+}
+
+.top_nav li:hover {
+	cursor: pointer;
+	color: rgba(255,255,255,.9);
+}
+
+.top_nav #btn_span {
+	position: absolute;
+	top: 4px;
+	width: 44px;
+	height: 49px;
+	
+}
+
+.top_nav #btn_span span {
+	display: block;
+	height: 4px;
+	margin: 7px;
+	background: rgba(255,255,255,.75);
+}
+
+.top_nav #Innovation {
+	position: absolute;
+	width: 170px;
+	height: 45px;
+	background: #222021;
+	border: 0px solid lightgrey;
+	outline: 0px solid black;
+	opacity: .99;
+	left: 1480px;
+	font-weight: 580;
+	transition: all 500ms ease;
+	
+			
+}
+
+
+.top_nav #Innovation span {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15.8px;
+	color: rgba(253,253,253,.6)
+}
+
+.top_nav #Innovation:hover {
+	background: rgba(239,239,239,.25);
+}
+
+.main_showcase .container {
+	background: url(../img/lake-at-night-stars-wallpaper-4.jpg);
+	background-attachment: fixed;
+	height: 780px;
+	text-align: center;
+	
+}
+
+
+.main_showcase .container h1 {
+	margin-top: 125px;
+	color: rgba(253,253,253,.8);
+	font-size: 29px;
+	font-weight: 200;
+	text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+	text-transform: uppercase;
+}
+
+.main_showcase .container h2 {
+	color: rgba(253,253,253,.8);
+	margin-top: 10px;
+	font-size: 30px;
+	font-weight: 100;
+	text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+	text-transform: uppercase;
+}
+
+.main_showcase .container #logo {
+	position: absolute;
+	display: -webkit-box;
+	-webkit-box-pack:center;
+	top: 50px;
+	margin-left: 765px;
+	width: 200px;
+	opacity: 0;
+}
+
+.main_showcase .container #button {
+	position: absolute;
+	text-align: center;
+	background: #222021;
+	border: 2px solid grey;
+	outline: 2px solid black;
+	opacity: .65;
+	border-radius: 1.5px;
+	margin-top: 130px;
+	width: 160px;
+	padding: 13px;
+	right: 755px;
+	font-size: 15.5px;
+	font-weight: 200;
+	transition: all 1000ms ease;
+}
+
+.main_showcase .container #button:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+#boxes {
+	display: -webkit-box;
+	margin: 408px 455px;
+	position: absolute;
+	z-index: 2;
+}
+
+#boxes .box {
+	width: 105px;
+	height: 115px;
+	margin: 0 80px;
+	background:rgba(0,0,0,.52);
+	border: 1px solid rgba(253,253,253,.5);
+	box-shadow: -7px 8px 12px 10px rgba(0,0,0,.4);
+	transform: rotate(-45deg) skew(15deg);
+}
+
+.border_block {
+	position:absolute;
+	width: 89.4%;
+	top: 670px;
+	background:rgba(43,43,43,.75);
+	height: 110px;
+
+}
+
+.border_block1 {
+	background:rgba(46,46,46,.48);
+	box-shadow: 1px -5px 10px 4px rgba(253,253,253,.2);
+	border-top: 3px solid rgba(110,110,110,.4);
+	margin-top: 0px;
+	height: 160px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
