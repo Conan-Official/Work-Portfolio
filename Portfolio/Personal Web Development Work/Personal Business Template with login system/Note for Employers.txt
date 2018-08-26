@@ -1,0 +1,14 @@
+# ---- The file type for each webpage is a .html file ---- #
+
+
+You would need to change the .html to .php and run the code through either a localhost or your personal business hosting service for 
+the login system to operate. 
+
+
+Thank you for your time and consideration. 
+
+Sincerely, 
+
+
+Conan Mafnas 
+
