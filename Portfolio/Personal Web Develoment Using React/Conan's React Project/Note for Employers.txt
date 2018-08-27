@@ -1,6 +1,6 @@
 # ---------- React Template ---------  #
 
-This web application was run by Node.js
+This web application is runned by Node.js
 
 Script links that contain react / babel were not included
 
