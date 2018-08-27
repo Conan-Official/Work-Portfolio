@@ -1,0 +1,10 @@
+# ---------- React Template ---------  #
+
+This web application was run by Node.js
+
+Script links that contain react / babel were not included
+
+
+To run this application please run on node
+
+Thank you!
