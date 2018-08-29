@@ -9,7 +9,9 @@ import "./index.css";
     Update: Created less markup in index.html and implemented the sturucture 
     within React Components
 
-
+	<------Notes for props(properties) -------> 
+	
+	
     Main Class Component  === class Main extends Component
         (obj) = {
             prop:  name: "string",  int, or ["",""], 
@@ -29,9 +31,23 @@ import "./index.css";
     this .props.obj.prop.map((placeholder) => <el>{placeholder}</el>);  
 
     Note: use key to remove compiling warning 
+	
+	-------------------------------------------------------------
+	
+	<--------Validating Props ------------> 
+	
+	Using Proptypes
+	
+	Ex: 
+	
+	ClassName.propTypes = {
+			name: React.propTypes.string,  ---> prop requries a string
+			age: React.propTypes.number,   ---> prop requries a integer
+			information: React.propTypes.object, ----> prop requires a object
+	};
 
 
-                */
+------------------------------------------------------------------------*/
 
 
 
