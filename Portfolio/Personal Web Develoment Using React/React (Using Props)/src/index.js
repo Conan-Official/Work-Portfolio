@@ -10,7 +10,7 @@ import "./index.css";
     within React Components
 
 
-    Main Class Component 
+    Main Class Component  === class Main extends Component
         (obj) = {
             prop:  name: "string",  int, or ["",""], 
         };
@@ -19,8 +19,10 @@ import "./index.css";
 
     Relative Class Component
     Calling
+	
+	<Main rendername={obj}/>
 
-    this.props.obj.prop.name;
+    this.props.rendername.name;
     
     or 
 
