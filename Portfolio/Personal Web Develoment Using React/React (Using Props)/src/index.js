@@ -12,7 +12,7 @@ import "./index.css";
 
     Main Class Component 
         (obj) = {
-            prop: { name: "",  }, or ["",""], 
+            prop:  name: "string",  int, or ["",""], 
         };
 
         <Ex name = {obj}
