@@ -1,0 +1,7 @@
+# --- React Projects --- #
+
+Each Project contains React's Core fundamentals along with Custom Written CSS code written by me. 
+
+I hope you enjoy! 
+
+Thank you for taking your time and consideration to view these projects. 

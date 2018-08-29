@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    background-color: #EEE; 
+}
+
+.container {
+    height: 100%;
+    padding: 0; 
+    overflow: hidden;
+}
+
+.navigation {
+    background: rgba(110,110,110,.2); 
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.4); 
+    height: 70px;
+    position: fixed; 
+    width: 100%;
+}
+
+.navigation h1 {
+    position: absolute; 
+    line-height: 70px;
+    font-size: 18.5px;
+    margin-left: 1%;
+    text-transform: uppercase;
+    color: rgba(85, 80, 80, 0.6); 
+}
+
+.navigation #struct {
+    list-style: none;
+    line-height: 70px;
+    text-align: right; 
+    margin: 0 2%;
+}
+
+.navigation #struct li {
+    display: inline-block; 
+    text-decoration: none; 
+    text-transform: uppercase;
+    font-size: 17.5px;
+    color: rgba(85, 80, 80, 0.6); 
+    margin-left: 2%;
+    transition: all 500ms ease;
+}
+
+.navigation #struct li:hover {
+    transform: translateY(1px);
+    cursor: default; 
+    color: rgba(85, 80, 80, 0.7); 
+}
+
+.main_showcase::before {
+    content: "";
+    display: block;
+    height: 70px;
+   
+}
+
+.main_showcase {
+    height: 700px; 
+}
+
+.main_showcase .container {
+    background: rgba(255, 144, 0, .05); 
+    text-align: center;
+    z-index: -1;
+}
+
+.main_showcase .container h1 {
+    width: 38%;
+    font-size: 23px;
+    height: 15%;
+    margin: 1.5% auto;
+    line-height: 110px;
+    border-radius: 15px; 
+    text-transform: uppercase;
+    background: rgba(110,110,110,.1); 
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.4); 
+    color:rgba(32, 32, 32, 0.4); 
+    z-index: 1;
+}
+
+.main_showcase .container #numberBox {
+    height: 50%;
+    width: 20%;
+    background: rgba(110,110,110,.1); 
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.4); 
+    border-radius: 10px;
+    margin-left: 40%;
+}
+
+.main_showcase .container #numberBox button {
+    position: absolute;
+}
+
+.main_showcase .container #numberBox #add {
+    display: block;
+    height: 9.5%;
+    margin-top: 3%;
+    margin-left: 22%;
+    width: 5%;
+    font-size: 50px;
+    line-height: 90px;
+    background: rgba(255, 8, 0, .35);
+    outline:none;
+    border: 1px solid rgba(110,110,110,.2);
+    color: rgba(255,255,255,.6);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.4); 
+
+}
+
+.main_showcase .container #numberBox #subtract {
+    display: block;
+    height: 9.5%;
+    margin-top: 8%;
+    margin-left: 22%;
+    width: 5%;
+    font-size: 50px;
+    line-height: 90px;
+    background: rgba(0, 47, 255, 0.35);
+    outline:none;
+    border: 1px solid rgba(110, 110, 110, 0.2);
+    color: rgba(255,255,255,.6);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.4); 
+}
+
+.main_showcase .container #numberBox h1 {
+    z-index: 2;
+    color: black;
+}
+
+.main_showcase .container #numberBox #number {
+    position: absolute;
+    display: block;
+    line-height: 290px; 
+    margin-left: 8.3%;
+    text-align: center;
+    color: rgba(104, 101, 101, 0.6);
+    font-size: 70px; 
+
+
+}
+
+.main_showcase::after {
+    content: ""; 
+    display: block; 
+    height: 205px; 
+    background: rgba(110,110,110,.2); 
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.4); 
+}
+
+
