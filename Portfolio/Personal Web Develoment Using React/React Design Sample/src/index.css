@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100%;
+  padding: 0;
+  overflow: hidden; 
+}
+
+.navigation {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background: rgba(3, 3, 3, 0.658);
+  box-shadow: 0px 0px 14px 4px rgba(250, 247, 247, 0.7);
+  z-index: 3;
+}
+
+.navigation #struct {
+  text-align: center;
+  line-height: 30px;
+}
+
+.navigation #logo {
+  position: absolute;
+  margin: .35% .5%;
+}
+
+
+.navigation #struct li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 15.5px;
+  color: rgba(168, 165, 165, 0.7);
+  margin-left: 1.8%;
+  transition: all 500ms ease;
+  font-weight: 600;
+}
+
+.navigation #struct li:hover {
+  transform: translateY(1px);
+  cursor: default;
+  color: rgba(168, 165, 165, 0.9);
+}
+
+#main_showcase::before {
+  content: "";
+  display: block; 
+  height: 60px; 
+}
+
+#main_showcase {
+  height: 780px;
+}
+
+#main_showcase .container {
+  background: rgba(255, 255, 255, 0.58);
+}
+
+#main_showcase .container h1 {
+  position: absolute; 
+  width: 26%;
+  margin: 4% 37.9%;
+  padding: 20px;
+  background: rgba(110,110,110,.4); 
+  text-align: center;
+  font-size:25px; 
+  font-weight: 400; 
+  text-transform: uppercase; 
+  color: rgba(255,255,255,.7);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px rgba(190, 189, 189, 0.7);
+  z-index: 2;
+}
+
+
+#main_showcase .container .infoBoxes {
+  display: inline-block;
+  width: 20%;
+  height: 490px;
+  background: rgba(110,110,110,.4); 
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+  margin-top: 13.5%;
+  margin-left: 21%;
+  border-radius: 10px; 
+  z-index: 3;
+  
+}
+
+#main_showcase .container .infoBoxes h2 {
+  position: absolute;
+  text-align: center;
+  top: 28%;
+  margin-left:-2.6%;
+  width: 22%;
+  padding: 35px;
+  background: rgba(110,110,110,.98);
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,.8);
+  border-radius: 20px;
+  color: rgba(255,255,255,.7);
+  text-transform: uppercase;
+  z-index: 3;
+}
+
+#main_showcase .container .infoBoxes #name::before {
+  content: ""; 
+  display: block;
+  height: 120px;
+}
+
+#main_showcase .container .infoBoxes #name {
+  display: block;
+  position: absolute;
+  margin-left: 5%;
+  color: rgba(82, 78, 78, 0.75);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#main_showcase .container .infoBoxes #status::before {
+  content: ""; 
+  display: block;
+  height: 80px;
+}
+
+#main_showcase .container .infoBoxes #status {
+  display: block;
+  position: absolute;
+  margin-left: 2.2%;
+  color: rgba(82, 78, 78, 0.75);
+  font-size: 18px;
+  margin-top: 100px;
+}
+
+
+
+#main_showcase .container .infoBoxes #button {
+  position: absolute;
+  margin-top:15%;
+  margin-left: 5.2%;
+  padding: 10px;
+  width: 10%;
+  outline: none;
+  text-align: center;
+  background: rgba(110,110,110,.98);
+  box-shadow: 0px 0px 10px 4.5px rgba(65, 64, 64, 0.35);
+  border: 1px solid rgba(110,110,110,.5);
+  color: rgba(255,255,255,.5);
+  border-radius: 20px;
+  text-transform: uppercase;
+  transition: all 1000ms ease;
+}
+
+#main_showcase .container .infoBoxes #button:hover {
+  box-shadow: 0px 0px 6px 10.5px rgba(211, 208, 208, 0.4);
+  transform: translateY(5px);
+}
+
+#main_showcase #banner {
+  position: absolute;
+  margin-top:0%;
+  width: 100%;
+  height: 20%;
+  opacity: .90;
+  z-index: 1;
+
+
+}
+
+
+#main_showcase::after {
+  content: "";
+  display: block; 
+  height: 134px; 
+  background: rgba(3, 3, 3, 0.658);
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+
+}
+
+
+
+
