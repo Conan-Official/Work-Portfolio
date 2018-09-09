@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  padding: 0;
+  overflow: hidden; 
+  height: 100%;
+}
+
+.loader {
+  display: hidden; 
+  position: absolute; 
+  height: 0%; 
+  width: 0%;
+  background: rgba(0,0,0,.9);
+  transition: all 600ms ease; 
+  z-index: 4;
+}
+
+.loader .taskBox {
+  height: 70%;
+  width: 25%;
+  margin: -40% auto; /*5% */
+  border-radius: 15px;
+  background: rgba(51, 51, 51, 0.9);
+  border:1px solid rgba(110,110,110,.7);
+  box-shadow: 0px 0px 30px 3px rgba(6, 231, 247, 0);
+}
+
+.loader .taskBox #taskBox-btn {
+  position: absolute; 
+  background: rgba(252, 8, 8, 0.35);
+  border: 1px solid rgba(110,110,110,.4);
+  color: rgba(255,255,255,.6);
+  border-radius: 5px;
+  outline:none;
+  z-index: 5;
+  margin-left: 24.5%;
+  margin-top: -1.85%;
+  height:5.2%;
+  width: 3%;
+  box-shadow: 0px 0px 30px 2px rgba(136, 135, 135, 0.5);
+  opacity: 0;
+}
+
+.navigation {
+  position: fixed;
+  width: 100%;
+  height: 60px; 
+  background: rgba(0,0,0,.75); 
+  box-shadow: 0px 0px 12px 2.5px rgba(0,0,0,.6);
+}
+
+.navigation #sublogo {
+  position: absolute;
+  margin-top: .38%;
+  margin-left: .5%;
+}
+
+.navigation .struct {
+  text-align: center;
+  line-height: 62px;
+}
+
+.navigation .struct li {
+  display: inline-block; 
+  margin-left: 1.5%;
+  color: rgba(255,255,255,.4);
+  text-transform: uppercase; 
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 549;
+}
+
+.navigation #nav-btn {
+  position: absolute;
+  text-transform: uppercase;
+  left: 88%; 
+  margin-top: .75%;
+  height: 60%;
+  width: 10%;
+  color: rgba(255,255,255,.4);
+  outline: none; 
+  background: rgba(117, 116, 116, 0.5);
+  border: 1px solid rgba(110,110,110,.5);
+  box-shadow: 0px 0px 10px 2.6px rgba(110,110,110,.4);
+  border-radius: 4px;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 549;
+  transition: all 200ms ease; 
+}
+
+.navigation #nav-btn:hover {
+  box-shadow: 0px 0px 10px 2px rgba(19, 202, 235, 0.5);
+  transform: translateY(1px); 
+  background: rgba(117, 116, 116, 0.6);
+  color: rgba(255,255,255,.6);
+}
+
+.main_showcase::before {
+  content: "";
+  display: block;
+  height: 60px; 
+}
+
+.main_showcase {
+  height: 705px;
+  
+}
+
+.main_showcase .container #circlelogo{
+  position: absolute;
+  margin-top: 550px;
+  margin-left: 37%;
+  width: 26%;
+}
+
+.main_showcase::after {
+  content: "";
+  display: block; 
+  height: 209px;
+  background: rgba(0,0,0,.75); 
+  box-shadow: 0px 0px 12px 2.5px rgba(0,0,0,.6);
+}
+
+
+
+
+
+
