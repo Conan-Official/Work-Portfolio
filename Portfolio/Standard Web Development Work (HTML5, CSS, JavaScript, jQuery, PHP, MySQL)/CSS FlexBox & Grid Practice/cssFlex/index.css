@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: #FFF; 
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0px 20px 0px; 
+    background: rgba(0,0,0,.8);
+    color: rgba(255,255,255,.6); 
+    text-transform: uppercase;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    text-align: center;
+    margin-top: 3%; 
+    
+
+}
+
+.container > div {
+    padding: 10px 10px 10px 10px; 
+    border: 2px solid black;  
+}
+
+.container > .A {
+    flex-grow: .7;
+    flex-basis: 200px;
+    background: rgba(2, 4, 134, 0.4);
+}
+
+.container > .P {
+    flex-shrink: 5;
+    background: lightcoral;
+    flex-basis: 200px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    margin: 10% auto;
+    text-align: center;
+    align-items: stretch;
+    border: 2px solid black; 
+}
+
+.container2 > div {
+    border: .5px solid black; 
+    font-size: 18px;
+    text-transform: uppercase; 
+    width: 50%;
+    align-self: center;
+}
+
+
+.container-wrap {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    margin: 0 auto;
+    width: 200px;
+    flex-wrap: wrap; 
+   
+  
+    
+}
+
+.container-wrap > div {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    flex: 1 1 0px;
+    border: 1px solid lightblue;
+    align-self: center;
+    width: 200px;
+}
+
+.orderedLayout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;    
+    margin: 100px 0; 
+}
+
+.orderedLayout > div {
+    align-self: center;
+    border: 1px solid black; 
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+}
+
+.orderedLayout > .o1 {
+    order: 1; 
+}
+
+.orderedLayout > .o2 {
+    order: -1;
+}
+
+
+
+
+

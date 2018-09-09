@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #FFF; 
+}
+
+
+h1 {
+    text-align: center;
+    padding: 20px 0px 20px 0px; 
+    background: rgba(11, 39, 82, 0.8); 
+    color: rgba(255,255,255,.8);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7); 
+    text-transform: uppercase;  
+}
+
+.grid {
+    display: grid; 
+   
+    grid-template: repeat(2, 50px) / repeat(3, 1fr); /* (row / col) */
+   
+   /* grid-template-columns: repeat(3, 1fr); /*Note repeate(#cols, 1fr = Easch element gets 1 fraction of the entire grid)
+    grid-template-rows: 50px 50px;*/
+    grid-gap: 3px;
+    text-align: center;
+    list-style-type: none; 
+    margin: 5% auto;
+    
+    width: 50%; 
+}
+
+.grid > li {
+    padding: 10px 10px 10px 10px; 
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.2); 
+}
+
+.grid >li:nth-child(odd) {
+    background: rgba(230, 228, 228, 0.3);
+    font-size: 25px;
+}
+
+.grid >li:nth-child(even) {
+    background: lightskyblue;
+    font-size: 25px;
+}
+
+.grid2 {
+    display: grid; 
+    height: 30%;
+    grid-template: 40px auto 40px / repeat(12, 1fr); 
+    font-size: 20px;
+    
+    text-transform: uppercase;
+    margin: 10% auto; 
+    width: 50%;
+    list-style: none;
+    text-align: center;
+    grid-gap: 3px;
+    grid-template-areas:
+    ". h h h h h h h h h h ."
+    "a c c c c c c c c c c ."
+    ". f f f f f f f f f f .";
+}
+
+.Home{
+   grid-area: h; 
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.2);
+}
+
+.About {
+    grid-area: a; 
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.2);
+    
+}
+
+.Portfolio {
+    grid-area: c; 
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.2);
+   
+}
+
+.Contact {
+    grid-area: f;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.2);
+      
+}
+
+
+.grid3 {
+    display: grid; 
+    grid-template: repeat(2, 100px) / repeat(auto-fit, minmax(100px,1fr)); 
+    grid-auto-rows: 100px;
+    margin: 10% auto; 
+    width: 50%;
+    text-align: center;
+    grid-gap: 3px; 
+    line-height: 100px;
+
+}
+
+.grid3 > div {
+    box-shadow:0px 0px 10px 2px rgba(0,0,0,.3); 
+    
+}
+
+.grid3 > div:nth-child(even) {
+    background: lightskyblue;
+}
