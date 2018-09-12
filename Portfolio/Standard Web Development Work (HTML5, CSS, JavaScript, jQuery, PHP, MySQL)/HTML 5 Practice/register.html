@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>InvisionCore HTML Developer</title>
+        <meta charset="UTF-8">
+        <meta name = "description" content="HTML5 Review">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- Following W3Schools website layout --->
+        <header>
+            <h1>InvisionCore Register Page</h1>
+        </header>
+        <nav>
+            <ul>
+                <a href="./index.html"><li>Home</li></a>
+                <a href="./blogPage.html">Blog</a>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <form method="GET" action="#">
+                    <span>First Name: </span><input type="text" name="firstName"><br>
+                    <span>Last Name: </span><input type="text" name="lastName"><br>
+                    <span>Date of Birth: </span> <input type="date" name="bday"><br>
+                    <span>Gender: </span><br>
+                    <span>Male</span> <input type="radio" name="Gender" value="male"><br>
+                    <span>Female</span> <input type="radio" name="Gender" value="female"><br>
+                    <span>Email: </span> <input type="email" name="email" required><br>
+                    <span>School</span><br>
+                    <select name="schools" id="schools" required>
+                        <option value="ECPI University" name="schools">ECPI University</option>
+                        <option value="Northern Viginia Community College" name="schools">Northern Virginia Community College</option>
+                    </select><br>
+                    <span>Select Pet: </span>
+                    <span>Cat</span> <input type="checkbox" name="pets" value="cat">
+                    <span>Dog</span> <input type="checkbox" name="pets" value="dog">
+                    <span>Fish</span> <input type="checkbox" name="pets" value="fish"><br>
+                    <span>Password</span> <input type="password" name="password" required><br>
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Reset All Fields">
+                </form>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
+</html>
