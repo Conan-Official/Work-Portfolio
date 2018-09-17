@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+
+<html>
+    <head>
+        <title>InvisionCore Shopping List</title>
+        <meta name = "description" content="This is my shopping list">
+        <meta name = "viewport" content= "width=device-width, initial-scale=1.0">
+        <meta charset = "UTF-8">
+        <link rel ="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>InvisionCore Shopping List</h1>
+        </header>
+        <main>
+            <section class = "main_showcase">
+                <article class = "shoppingList">
+                    <h1>Shopping List</h1>
+                    <p>
+                        <ul id ="list">
+                            <li><h4>Must Be Purchased Today</h4></li>
+                         
+                        </ul>
+                    </p>
+                </article>
+            </section>
+            <form class ="addToList" method="GET">
+                <input id = "add" type = "text" name="add" placeholder="Add to list">
+                <input id ="submit" type = "button" name="submit" value="submit">
+            </form>
+        </main>
+        <script src ="./js/index.js"></script>
+    </body>
+</html>

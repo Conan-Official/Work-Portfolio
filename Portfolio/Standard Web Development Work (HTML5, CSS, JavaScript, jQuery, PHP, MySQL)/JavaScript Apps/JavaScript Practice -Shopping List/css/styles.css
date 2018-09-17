@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+header h1 {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    text-transform: uppercase; 
+    background: rgba(0,0,0,.8); 
+    color:rgba(255,255,255,.6);
+    box-shadow: 0px 0px 10px 2px rgba(110,110,110,.2);
+    padding: 20px 0px 20px 0px; 
+    text-align:center; 
+}
+
+.main_showcase {
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(1, 1fr); 
+    width: 30%;
+    background: rgba(0,0,0,.8); 
+    box-shadow: 0px 0px 10px 2px rgba(110,110,110,.3); 
+    justify-content: center;
+    text-align: center;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.8);
+    
+}
+
+.main_showcase .shoppingList h1 {
+    grid-column: 1/-1; 
+    background: rgb(59, 113, 131, .6);
+    box-shadow: 0px 0px 20px 2px rgba(255,255,255,.15) inset;
+    color: rgba(255,255,255,.6);
+    padding: 20px 0px 20px 0px; 
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.main_showcase ul {
+    list-style-type: none;
+    color: rgba(255,255,255,.6);
+}
+
+.main_showcase ul li {
+    margin: 1em;
+}
+
+.addToList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 30%;
+    background: rgb(41, 40, 40);
+    height: 3em;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.5);
+}
+
+.addToList #add {
+  
+    flex: 1;
+}
+
+.addToList #submit {
+    flex: 1;
+    background: rgb(59, 113, 131, .6);
+    box-shadow: 0px 0px 20px 2px rgba(255,255,255,.15) inset;
+    border: rgba(110,110,110,.5);
+    color: white;
+    outline:none;
+    text-transform: uppercase;
+    transition: all 500ms ease;
+
+    
+}
+
+.addToList #submit:hover {
+    background: rgb(59, 113, 131, .7);
+    transform: translateY(.7px);
+}
+
+.addToList input {
+    background: rgba(0,0,0,.2);
+    color: white;
+    text-align: center;
+    outline:none;
+    border: 1px solid rgba(110,110,110,.2);
+}
+.addToList input::placeholder {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+
+
