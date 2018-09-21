@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, rgb(10, 169, 223), rgb(42, 42, 153)); 
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}

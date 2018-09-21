@@ -1,0 +1,11 @@
+h1 {
+    padding: 40px 0px 40px 0px;
+    color: rgba(255,255,255,.6);
+    box-shadow: rgba(0,0,0,.6);
+    text-transform: uppercase;
+    border-bottom: 1.5px solid rgba(0,0,0,.7);
+    font-family: 'IBM Plex Serif', serif;
+    line-height: 20px;
+    font-size: 40px;
+
+}
