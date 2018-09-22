@@ -1,0 +1,7 @@
+header {
+    text-align: center;
+    padding: 25px 0px 25px 0px; 
+    text-transform: uppercase;
+    color: rgba(255,255,255,.6);
+    border-bottom: 3px solid rgba(0,0,0,.2);
+}
