@@ -1,7 +1,11 @@
 # --- React Projects --- #
 
-Each Project contains React's Core fundamentals along with Custom Written CSS code written by me. 
+Each Project contains React's Core fundamentals along with Custom Written CSS code. 
 
 I hope you enjoy! 
 
 Thank you for taking your time and consideration to view these projects. 
+
+
+Note: Most Projects include the Node Modules with the projects dependencies. Although these can be removed and installed again using npm or yarn. I've uploaded most of them in the repository for a 
+easy setup without installing anything. Each project is a development project ready for deployment.  To view these projects you must use NodeJS. 
