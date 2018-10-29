@@ -1,5 +1,12 @@
 # Conan's DealerOn Coding Test
 
+## Note
+
+To access the images from the dummy api for the gallery of the application, you must uncomment lines 121 & 122 in the index.js file. 
+
+To deploy the application, use the previous directions in the Employers Notes to launch a local server listening on port 3000. This will then host your index.html file and the dummy api. 
+
+---------- Employers Notes ---------
 # Dummy Data API
 Simple server exposing *dummy* data to build a sample app.
 
